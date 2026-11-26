@@ -1,7 +1,8 @@
 import axios, { type AxiosInstance, type InternalAxiosRequestConfig } from 'axios';
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api/v1';
+  import.meta.env.VITE_API_BASE_URL ||
+  'https://crispy-octo-potato-104f.onrender.com/api/v1';
 
 let tokenGetter: (() => Promise<string | null>) | null = null;
 
